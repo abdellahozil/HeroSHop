@@ -29,7 +29,7 @@ function App() {
   
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/heroshop'>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Shop />}></Route>
