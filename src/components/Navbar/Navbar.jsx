@@ -77,16 +77,16 @@ const Navbar = () => {
             <div className="h-[100vh]">
               <ul className="flex flex-col h-[100%] justify-center items-center gap-10">
                 <li>
-                  <a href="/" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)} >Home</a>
+                  <Link to="/" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)} >Home</Link>
                 </li>
                 <li>
-                  <a href="/men" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)} >Men</a>
+                  <Link to="/men" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)} >Men</Link>
                 </li>
                 <li>
-                  <a href="/women" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)} >Women</a>
+                  <Link to="/women" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)} >Women</Link>
                 </li>
                 <li>
-                  <a href="/kids" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)}>Kids</a>
+                  <Link to="/kids" className="text-xl font-bold text-[hsl(0,0%,20%)] hover:text-[hsl(0,0%,0%)] duration-75" onClick={() => setShowMenu(!showMenu)}>Kids</Link>
                 </li>
               </ul>
             </div>

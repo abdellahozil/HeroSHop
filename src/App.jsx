@@ -12,7 +12,6 @@ import men_banner from "./assets/banner_mens.png"
 import kid_banner from "./assets/banner_kids.png"
 import women_banner from "./assets/banner_women.png"
 import Product from './Pages/Product'
-import { ShopContext } from './Context/ShopContext'
 
 
 function App() {
