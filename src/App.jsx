@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Shop from './Pages/Shop'
@@ -29,7 +29,7 @@ function App() {
   
   return (
     <div>
-      <BrowserRouter basename='/heroshop'>
+      
         <Navbar/>
         <Routes>
           <Route path='/' element={<Shop />}></Route>
@@ -41,7 +41,6 @@ function App() {
            </Route>
         </Routes>
         <Footer/>
-      </BrowserRouter>
     </div>
   )
 }
